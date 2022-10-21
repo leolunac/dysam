@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Formulario D&SAM</title>
+</head>
+<body>
+   <header class="header">
+     <img src="logo.png" alt="logo">
+     <!-- <div class="divtext"> -->
+      <p>DISEÑO Y SERVICIOS AMBIENTALES S.A.S </p>
+      <p>D & S A M</p>
+     <!-- </div> -->
+   </header>
+
+   
+   <div>
+    <form action="guardar.php" class="formulario" id="formulario" target="_blank" method="post">
+      <fieldset>
+        <legend>Relacion de Accesorios</legend>
+        <form action="guardar.php" method="POST">
+          <label for="fecha">Fecha:</label>
+          <input type="date" name="fecha" id="fecha" required><br><br>
+          <label for="tecnico">Nombre:</label>
+          <select name="tecnico" id="tecnico">
+          <option value="Seleccionar">Seleccionar Nombre del Técnico</option>
+          <option value="Leonardo Luna">Leonardo Luna</option>
+          <option value="Giovanni Pabon">Giovanni Pabon</option>
+          <option value="Yeison Puerta">Yeison Puerta</option>
+          <option value="Andy Mercado">Andy Mercado</option>
+          <option value="Ubaldo Diaz">Ubaldo Diaz</option>
+          <option value="Javier Zapata">Javier Zapata</option>
+          <option value="Nilson Vanegas">Nilson Vanegas</option>
+          <option value="Javier Caballero">Javier Caballero</option>
+          
+          </select><br><br>
+
+          <label for="unidad">Unidad:</label> 
+          <input type="unidad" name="unidad" id="unidad" required><br><br>
+
+          <label for="hinicial">Hora Inicial:</label> 
+          <input type="time" name="hinicial" id="hinicial" required>
+          
+          <label for="hfinal">Hora Final:</label> 
+          <input type="time" name="hfinal" id="hfinal" required>
+
+          <label for="duracion">Duración (horas):</label>
+          <input type="number" name="duracion" id="duracion" placeholder="Horas de trabajo en el servicio..." min="1" required><br><br>
+     
+          
+          <select name="servicio" id="servicio">
+          <option value="Seleccionar">Seleccionar Nombre Servicio</option>
+          <option value="normal">Normal</option>
+          <option value="urgencia">Urgencia</option>
+          
+          </select><br><br>
+          </fieldset>
+     
+          <fieldset>
+          <legend>Relacion de Accesorios</legend> 
+        
+          <input type="text" name="material0" id="material0">
+          <input type="number" name="cantidad0" id="cantidad0"><br>
+        
+          <input type="text" name="material1" id="material1">
+          <input type="number" name="cantidad1" id="cantidad1"><br>
+
+          <input type="text" name="material2" id="material2">
+          <input type="number" name="cantidad2" id="cantidad2"><br>
+        
+          <input type="text" name="material3" id="material3">
+          <input type="number" name="cantidad3" id="cantidad3"><br>
+
+          <input type="text" name="material4" id="material4">
+          <input type="number" name="cantidad4" id="cantidad4"><br>
+
+          <input type="text" name="material5" id="material5" >
+          <input type="number" name="cantidad5" id="cantidad5"><br>
+
+          <input type="text" name="material6" id="material6">
+          <input type="number" name="cantidad6" id="cantidad6"><br>
+
+          <input type="text" name="material7" id="material7" >
+          <input type="number" name="cantidad7" id="cantidad7" ><br>
+
+          <input type="text" name="material8" id="material8">
+          <input type="number" name="cantidad8" id="cantidad8"><br>
+
+          <input type="text" name="material9" id="material9">
+          <input type="number" name="cantidad9" id="cantidad9" ><br>
+
+          <input type="text" name="material10" id="material10">
+          <input type="number" name="cantidad10" id="cantidad10"><br>
+
+          <input type="text" name="material11" id="material11">
+          <input type="number" name="cantidad11" id="cantidad11" ><br>
+
+          <input type="text" name="material12" id="material12">
+          <input type="number" name="cantidad12" id="cantidad12"><br>
+
+          <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Describa la labor realizada..."></textarea>
+        
+        </fieldset>
+      
+      <fieldset>
+        <input type="submit" value="Enviar"><br>
+        <input type="reset" value="Borrar">
+      </fieldset>
+    </form>
+    </form>
+   </div>
+</body>
+</html>

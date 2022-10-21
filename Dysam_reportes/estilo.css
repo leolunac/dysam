@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+
+}
+html {
+    border: 4px solid #da9fd7;!important
+    min-height: 100%;
+   }
+
+#leo {
+    text-align:center;
+}
+select{
+    size: 40px;
+}
+.card-body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(154, 110, 226)
+}
+.text-center{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(154, 110, 226)
+}
+button{
+    text-align: justify;
+    color: rgb(50, 204, 50);
+}

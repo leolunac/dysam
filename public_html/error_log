@@ -1,0 +1,7 @@
+[19-Jul-2022 13:07:32 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home1/diasam/public_html/guardar.php on line 8
+[16-Aug-2022 06:35:31 America/Chicago] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE) in /home1/diasam/public_html/guardar.php on line 17
+[16-Aug-2022 06:36:05 America/Chicago] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE) in /home1/diasam/public_html/guardar.php on line 17
+[16-Aug-2022 06:40:28 America/Chicago] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE) in /home1/diasam/public_html/guardar.php on line 16
+[16-Aug-2022 06:42:19 America/Chicago] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE) in /home1/diasam/public_html/guardar.php on line 16
+[16-Aug-2022 06:43:00 America/Chicago] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE) in /home1/diasam/public_html/guardar.php on line 16
+[16-Aug-2022 06:52:52 America/Chicago] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE) in /home1/diasam/public_html/guardar.php on line 16

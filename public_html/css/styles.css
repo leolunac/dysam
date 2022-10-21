@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #fff;
+}
+.header{
+  max-width: 50%;
+  margin: auto;
+}
+
+.header img{
+  max-width: 50%;
+  overflow: hidden;
+  height: 80px;
+  float: left;
+  display: block;
+  margin: auto;
+}
+
+p{
+  color:#000;
+  text-align: center;
+  font-size: 18px;
+  }
+
+div form{
+  max-width: 50%;
+  min-width: 600px;
+  overflow: auto;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 10px 8px #888888;
+  background-color: #e3cbe4a6;
+  padding: 20px;
+  clear: both;
+}
+
+   fieldset{
+     margin-bottom: 12px;
+     border-radius: 20px;
+  }
+
+   label{
+     font-weight: bolder;
+     font-size: 16px;
+   }
+
+  input:not([type="radio"]), select, textarea{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  input[name*="material"]{
+    width: 75%;
+    padding: 10px 12px;
+  }
+  input[name*="cantidad"]{
+    width: 20%;
+    padding: 10px 12px;
+    margin-left: 20px;
+  }
+  
+  input[type="submit"], input[type="reset"]{
+    width: 20%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #8dbbda;
+}
+
+  input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #308fce;
+  }
+  
+@media only screen and (max-width: 600px) {
+  div form{
+    width: 30%;
+    min-width: 450px;
+    overflow: auto;  
+}
+
+input[name*="material"]{
+  width: 68%;
+  
+}
+input[name*="cantidad"]{
+  width: 25%;
+}
+
+.header{
+ max-width: 100%;
+ margin: auto 30px;
+ 
+}
+p{
+  text-align: center;
+}
+}
